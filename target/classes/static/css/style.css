@@ -1,0 +1,38 @@
+body {
+	padding: 20px;
+	margin: auto;
+	font-family: verdana;
+}
+#content {
+	margin: auto;
+	width: auto;
+	padding: 10px;
+/*	text-align: center;*/
+}
+#places {
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+#places div {
+	width: 200px;
+	height: 150px;
+	border: 1px solid black;
+	text-align: center;
+}
+#activities {
+	width: auto;
+	height: 150px;
+	border: 1px solid black;
+	padding: 5px;
+	overflow: scroll;
+/*	display: flex;
+	flex-direction: column-reverse;*/
+}
+.green {
+	color: green;
+}
+.red {
+	color: red;
+}
+
